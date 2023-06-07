@@ -1,0 +1,217 @@
+/* Colores de la paleta */
+:root {
+    --color-primary: #7E57C2; /* Morado */
+    --color-secondary: #cdd487e0; /* Ocre */
+    --color-tertiary: #2196F3; /* Azul */
+    --color-quaternary: #c6b414; /* Amarillo */
+    --color-quinary: #a81d4b; /* Rosa */
+  }
+  
+  /* Estilos generales */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-primary);
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    color: var(--color-secondary);
+  }
+  
+  /* Estilos de la sección de noticias */
+  .news {
+    margin-top: 40px;
+  }
+  
+  .news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .news-item img {
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .news-item h3 {
+    margin: 0;
+    color: var(--color-tertiary);
+  }
+  
+  .news-item p {
+    color: #aaa;
+  }
+  
+  .news-item a {
+    color: var(--color-quaternary);
+    text-decoration: none;
+  }
+  
+  /* Estilos de la sección de jugadores */
+  .players {
+    margin-top: 40px;
+  }
+  
+  .player-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .player-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .player-item h3 {
+    margin: 0;
+    color: var(--color-quinary);
+  }
+  
+  .player-item p {
+    color: #aaa;
+  }
+  
+  .player-item a {
+    color: var(--color-tertiary);
+    text-decoration: none;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: var(--color-primary);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+  footer p {
+    color: #aaa;
+    margin: 10px 0;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    .news-item img,
+    .player-item img {
+      width: 100px;
+      height: 85px;
+    }
+  }
+  
+  body {
+    background-color: #7b7b99c2;
+  }
+ /* Estilos del formulario */
+form {
+    max-width: 400px; /* Ajustar el ancho máximo del formulario */
+    margin-top: 40px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #a52020;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  form input[type="submit"] {
+    width: 900%;
+    padding: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-secondary);
+    color: #7ad668;
+    cursor: pointer;
+  }
+    .kb{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    } 
+
+
+
+
+
+
+
+
+
+
+
+  /* Media queries */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    form {
+      max-width: 100%;
+    }
+  }
